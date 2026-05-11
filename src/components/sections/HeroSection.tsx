@@ -8,6 +8,21 @@ export default function HeroSection() {
   const { t } = useTranslation()
 
   return (
+    <>
+      <style>{`
+        @media (max-width: 768px) {
+          .hero-inner {
+            flex-direction: column-reverse !important;
+          }
+          .hero-text {
+            order: 2 !important;
+          }
+          .hero-logo-wrap {
+            order: 1 !important;
+            margin-bottom: 2rem !important;
+          }
+        }
+      `}</style>
     <section className="awabel-hero">
       <div className="hero-decoration-2"></div>
       <div className="awabel-container">
@@ -105,5 +120,6 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
+    </>
   )
 }
