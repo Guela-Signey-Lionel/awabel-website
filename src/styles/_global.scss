@@ -715,7 +715,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
     flex-direction: column-reverse;
     text-align: center;
   }
-  .hero-logo-img { width: 160px; height: 160px; }
+  .hero-logo-img { width: 180px; height: 180px; }
   .hero-text     { max-width: 100%; }
   .hero-btns     { justify-content: center; }
 }
@@ -735,6 +735,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
 
   .section-title { font-size: 1.5rem; }
   .prog-card     { padding: 1.25rem; }
+  .prog-icon     { width: 56px; height: 56px; }
   .form-card     { padding: 1.5rem; }
 
   // page-hero offset tablette (même hauteur navbar)
@@ -934,7 +935,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
     padding: calc(90px + 1.5rem) 0 2rem; // offset mobile 90px intégré dans le fond bleu
   }
 
-  .hero-logo-img { width: 110px; height: 110px; }
+  .hero-logo-img { width: 140px; height: 140px; }
 
   .hero-btns {
     flex-direction: column;
@@ -951,6 +952,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
   .awabel-section    { padding: 2.5rem 0; }
   .mission-card-dark { padding: 1.5rem; }
   .prog-card         { padding: 1.25rem; }
+  .prog-icon         { width: 60px; height: 60px; }
+  .member-photo      { width: 96px; height: 96px; }
   .form-card         { padding: 1.25rem; }
 
   // ---- Footer ----
