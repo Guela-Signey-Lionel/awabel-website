@@ -44,22 +44,28 @@ export default function HeroCarousel() {
         
         @media (max-width: 768px) {
           .hero-carousel-img {
-            max-width: 360px;
-            max-height: 270px;
+            max-width: 400px;
+            max-height: 300px;
           }
         }
         
         @media (max-width: 480px) {
           .hero-carousel-img {
-            max-width: 320px;
-            max-height: 230px;
+            max-width: 360px;
+            max-height: 270px;
           }
         }
         
         @media (max-width: 360px) {
           .hero-carousel-img {
-            max-width: 280px;
-            max-height: 200px;
+            max-width: 320px;
+            max-height: 240px;
+          }
+        }
+        
+        @media (max-width: 768px) {
+          .carousel-nav-btn {
+            display: none !important;
           }
         }
       `}</style>
@@ -80,7 +86,7 @@ export default function HeroCarousel() {
       {/* Navigation buttons */}
       <button
         onClick={goToPrevious}
-        className="position-absolute top-50 start-0 translate-middle-y btn btn-dark bg-opacity-30 border-0 ms-3"
+        className="position-absolute top-50 start-0 translate-middle-y btn btn-dark bg-opacity-30 border-0 ms-3 carousel-nav-btn"
         style={{ zIndex: 10 }}
         aria-label="Previous image"
       >
@@ -90,7 +96,7 @@ export default function HeroCarousel() {
       </button>
       <button
         onClick={goToNext}
-        className="position-absolute top-50 end-0 translate-middle-y btn btn-dark bg-opacity-30 border-0 me-3"
+        className="position-absolute top-50 end-0 translate-middle-y btn btn-dark bg-opacity-30 border-0 me-3 carousel-nav-btn"
         style={{ zIndex: 10 }}
         aria-label="Next image"
       >
