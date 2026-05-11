@@ -8,12 +8,7 @@ interface EmailData {
 
 export async function sendEmail(data: EmailData): Promise<boolean> {
   try {
-    // Utilisation de EmailJS comme service d'envoi d'emails
-    // Vous devrez configurer un compte EmailJS et remplacer ces valeurs
-    const serviceId = 'service_your_service_id'
-    const templateId = 'template_your_template_id'
-    const publicKey = 'your_public_key'
-
+    // Simulation d'envoi d'email pour le développement
     const emailParams = {
       to_email: data.to,
       from_name: data.from || 'Site Web AWABEL',
@@ -22,21 +17,7 @@ export async function sendEmail(data: EmailData): Promise<boolean> {
       message: data.body,
     }
 
-    // Simulation d'envoi d'email pour le développement
     console.log('Email envoyé:', emailParams)
-    
-    // Pour le développement, on simule l'envoi
-    // En production, décommentez le code EmailJS ci-dessous:
-    /*
-    const response = await (window as any).emailjs.send(
-      serviceId,
-      templateId,
-      emailParams,
-      publicKey
-    )
-    
-    return response.status === 200
-    */
     
     // Simulation réussie
     return true
