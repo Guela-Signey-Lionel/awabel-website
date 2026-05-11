@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "programs": "Programmes",
+    "news": "Actualités",
+    "partners": "Partenaires",
+    "join": "Rejoindre",
+    "contact": "Contact",
+    "cta": "Nous contacter",
+    "donate": "Faire un Don"
+  },
+  "donate": {
+    "title": "Soutenir AWABEL",
+    "subtitle": "Votre générosité nous permet de poursuivre nos actions humanitaires en République Centrafricaine",
+    "amounts": {
+      "10": "10000 FCFA",
+      "25": "25000 FCFA",
+      "50": "50000 FCFA",
+      "100": "100000 FCFA",
+      "custom": "Montant personnalisé"
+    },
+    "form": {
+      "amountLabel": "Montant du don (FCFA)",
+      "nameLabel": "Nom complet",
+      "emailLabel": "Email",
+      "phoneLabel": "Téléphone",
+      "messageLabel": "Message (optionnel)",
+      "submit": "Confirmer le don",
+      "cancel": "Annuler"
+    },
+    "payment": {
+      "methods": "Moyens de paiement",
+      "orange": "Orange Money",
+      "moov": "Moov Money",
+      "bank": "Virement bancaire",
+      "instructions": "Après confirmation, vous recevrez les instructions de paiement"
+    }
+  },
+  "activities": {
+    "title": "Activités réalisées sur le terrain",
+    "description": "L'équipe terrain de l'ONG AWABEL a réalisé un exercice d'évaluation participative au sein de la communauté Aka (pygmés) du village Ndjigba, situé dans la localité de Yombo/Sous-Préfecture de Bimbo/ Préfecture de l'Ombella M'poko.",
+    "viewMore": "Voir plus",
+    "altPrefix": "Photo de l'activité terrain AWABEL -"
+  },
+  "topbar": {
+    "address": "Bangui, 6ème arrondissement, quartier MODOUA — République Centrafricaine"
+  },
+  "hero": {
+    "badge": "🇨🇫 ONG Nationale — République Centrafricaine",
+    "title": "Agir ensemble pour",
+    "titleHighlight": "la RCA",
+    "slogan": "Solidarité · Justice · Égalité",
+    "desc": "AWABEL œuvre pour la protection et la promotion des droits des femmes, la lutte contre la pauvreté, l'analphabétisme et le chômage en République Centrafricaine.",
+    "btnPrograms": "Nos programmes",
+    "btnContact": "Nous contacter"
+  },
+  "stats": {
+    "domains": "Domaines d'action",
+    "members": "Membres du bureau",
+    "founded": "Fondée le 25 Nov.",
+    "coverage": "Bangui & Régions"
+  },
+  "about": {
+    "tag": "À propos",
+    "title": "Notre mission humanitaire",
+    "desc1": "Fondée le 25 novembre 2022 lors de l'Assemblée Générale constitutive, AWABEL (Association Wali ti Béafrica Londo) est une ONG nationale, à but non lucratif, apolitique et interconfessionnelle, régie par la Loi N° 61/233 du 27 mai 1961.",
+    "desc2": "Nos statuts ont été adoptés le 27 janvier 2026 et notre règlement intérieur le 15 janvier 2026. Nous collaborons avec les Agences des Nations Unies, les ONG internationales, les Ambassades et les Institutions de l'État Centrafricain.",
+    "desc3": "AWABEL place la femme, l'enfant et la jeunesse au cœur de ses interventions, pour un développement durable et équitable en RCA.",
+    "domainsTitle": "🎯 Domaines d'intervention",
+    "domains": [
+      "Éducation, eau, hygiène et assainissement",
+      "Sécurité alimentaire et formation polytechnique",
+      "Protection de l'environnement et de l'enfance",
+      "Autonomisation des femmes et réinsertion socioprofessionnelle des jeunes",
+      "Santé communautaire, santé maternelle et infantile"
+    ]
+  },
+  "programs": {
+    "tag": "Programmes",
+    "title": "Nos domaines d'action",
+    "sub": "Chaque programme reflète notre engagement envers le développement humain durable en République Centrafricaine.",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Éducation & Hygiène",
+        "desc": "Accès à l'éducation, eau potable, hygiène et assainissement pour les communautés vulnérables de RCA."
+      },
+      {
+        "icon": "🌾",
+        "title": "Sécurité Alimentaire",
+        "desc": "Formation polytechnique et renforcement de la sécurité alimentaire dans les zones rurales et péri-urbaines."
+      },
+      {
+        "icon": "🌿",
+        "title": "Environnement & Enfance",
+        "desc": "Protection de l'environnement, droits de l'enfant et lutte contre toutes formes de violence envers les mineurs."
+      },
+      {
+        "icon": "👩",
+        "title": "Autonomisation des Femmes",
+        "desc": "Renforcement des capacités des femmes, formation professionnelle et réinsertion socioprofessionnelle des jeunes."
+      },
+      {
+        "icon": "🏥",
+        "title": "Santé Communautaire",
+        "desc": "Santé maternelle et infantile, accès aux soins, sensibilisation et prévention dans les communautés."
+      },
+      {
+        "icon": "🤝",
+        "title": "Rejoindre AWABEL",
+        "desc": "Devenez membre, bénévole ou partenaire pour soutenir notre mission humanitaire en RCA.",
+        "cta": true
+      }
+    ]
+  },
+  "team": {
+    "tag": "Bureau Exécutif",
+    "title": "Notre équipe dirigeante",
+    "sub": "Élus lors de l'Assemblée Générale, les 9 membres du Bureau de Coordination guident AWABEL vers sa mission humanitaire."
+  },
+  "partners": {
+    "tag": "Partenaires",
+    "title": "Partenariats stratégiques",
+    "sub": "AWABEL collabore avec les grandes institutions nationales et internationales pour un impact durable en RCA."
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Contactez-nous",
+    "infoTitle": "Coordonnées officielles AWABEL",
+    "formTitle": "✉️ Envoyez-nous un message",
+    "labelAddress": "Adresse",
+    "labelPhone": "Téléphones",
+    "labelEmail": "E-mail",
+    "labelSocial": "Réseaux sociaux",
+    "addressVal": "Bangui, 6ème arrondissement\nQuartier MODOUA, RCA",
+    "fields": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "votre@email.com",
+      "subject": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer le message →"
+    },
+    "subjects": ["Demande d'information", "Adhésion membre", "Bénévolat", "Partenariat", "Autre"],
+    "success": "✅ Message envoyé ! Nous vous répondrons bientôt.",
+    "error": "❌ Erreur lors de l'envoi. Écrivez directement à awabel26@gmail.com",
+    "sending": "Envoi en cours..."
+  },
+  "join": {
+    "tag": "Rejoindre",
+    "title": "Rejoindre AWABEL",
+    "memberTitle": "Devenir membre",
+    "volunteerTitle": "Candidature bénévolat",
+    "partnerTitle": "Proposer un partenariat"
+  },
+  "news": {
+    "tag": "Actualités",
+    "title": "Nos actualités",
+    "sub": "Restez informé des activités et programmes d'AWABEL en République Centrafricaine."
+  },
+  "footer": {
+    "desc": "Association Wali ti Béafrica Londo\nONG Nationale d'Action Humanitaire et Sociale\nRépublique Centrafricaine — Fondée en 2022",
+    "slogan": "Solidarité · Justice · Égalité",
+    "quicklinks": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "© 2026 AWABEL — Association Wali ti Béafrica Londo. Tous droits réservés. | Loi N° 61/233 du 27 mai 1961 — RCA",
+    "legal": "Mentions légales"
+  },
+  "meta": {
+    "homeTitle": "AWABEL — ONG Nationale d'Action Humanitaire | République Centrafricaine",
+    "homeDesc": "AWABEL œuvre pour la protection des droits des femmes, la lutte contre la pauvreté et le développement durable en RCA.",
+    "aboutTitle": "À propos — AWABEL",
+    "programsTitle": "Programmes — AWABEL",
+    "contactTitle": "Contact — AWABEL",
+    "newsTitle": "Actualités — AWABEL"
+  },
+  "notfound": {
+    "title": "404",
+    "message": "Page introuvable — Cette page n'existe pas.",
+    "backHome": "← Retour à l'accueil"
+  },
+  "legal": {
+    "tag": "Légal",
+    "title": "Mentions légales",
+    "identification": "Identification de l'organisation",
+    "privacy": "Politique de confidentialité",
+    "hosting": "Hébergement & Technologies",
+    "privacyText1": "Les données collectées via les formulaires de ce site (nom, e-mail, message) sont utilisées exclusivement pour répondre aux demandes des utilisateurs et sont transmises à AWABEL à l'adresse awabel26@gmail.com.",
+    "privacyText2": "AWABEL s'engage à ne pas partager ces données avec des tiers sans le consentement explicite des utilisateurs, conformément aux principes de protection des données personnelles.",
+    "hostingText": "Ce site est hébergé sur Vercel / Render (hébergement statique gratuit avec HTTPS automatique). Il est développé avec React 18, TypeScript 5, Bootstrap 5 et Vite 5. L'envoi d'emails est assuré par EmailJS (service tiers)."
+  },
+  "forms": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "nationality": "Nationalité",
+    "phone": "Téléphone",
+    "motivation": "Motivation",
+    "skills": "Compétences",
+    "availability": "Disponibilité",
+    "organization": "Organisation",
+    "contactName": "Nom du contact",
+    "partnerType": "Type de partenaire",
+    "submitMember": "Envoyer ma candidature →",
+    "submitVolunteer": "Envoyer ma candidature →",
+    "submitPartner": "Envoyer la proposition →",
+    "loading": "Envoi...",
+    "successMember": "✅ Votre demande d'adhésion a été envoyée !",
+    "successVolunteer": "✅ Votre candidature bénévolat a été envoyée !",
+    "successPartner": "✅ Votre proposition de partenariat a été envoyée !",
+    "error": "❌ Erreur. Écrivez directement à awabel26@gmail.com"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "news": "News",
+    "partners": "Partners",
+    "join": "Join Us",
+    "contact": "Contact",
+    "cta": "Contact Us",
+    "donate": "Make a Donation"
+  },
+  "donate": {
+    "title": "Support AWABEL",
+    "subtitle": "Your generosity allows us to continue our humanitarian actions in the Central African Republic",
+    "amounts": {
+      "10": "10000 FCFA",
+      "25": "25000 FCFA",
+      "50": "50000 FCFA",
+      "100": "100000 FCFA",
+      "custom": "Custom amount"
+    },
+    "form": {
+      "amountLabel": "Donation amount (FCFA)",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Message (optional)",
+      "submit": "Confirm donation",
+      "cancel": "Cancel"
+    },
+    "payment": {
+      "methods": "Payment methods",
+      "orange": "Orange Money",
+      "moov": "Moov Money",
+      "bank": "Bank transfer",
+      "instructions": "After confirmation, you will receive payment instructions"
+    }
+  },
+  "activities": {
+    "title": "Field Activities",
+    "description": "The AWABEL NGO field team conducted a participatory evaluation mission in the Aka (pygmy) community",
+    "viewMore": "View more",
+    "altPrefix": "AWABEL field activity photo -"
+  },
+  "topbar": {
+    "address": "Bangui, 6th district, MODOUA neighborhood — Central African Republic"
+  },
+  "hero": {
+    "badge": "🇨🇫 National NGO — Central African Republic",
+    "title": "Acting together for",
+    "titleHighlight": "the CAR",
+    "slogan": "Solidarity · Justice · Equality",
+    "desc": "AWABEL works to protect and promote women's rights, and to fight poverty, illiteracy, and unemployment in the Central African Republic.",
+    "btnPrograms": "Our programs",
+    "btnContact": "Contact us"
+  },
+  "stats": {
+    "domains": "Areas of action",
+    "members": "Executive members",
+    "founded": "Founded Nov. 25",
+    "coverage": "Bangui & Regions"
+  },
+  "about": {
+    "tag": "About",
+    "title": "Our humanitarian mission",
+    "desc1": "Founded on November 25, 2022 during the Constitutive General Assembly, AWABEL (Association Wali ti Béafrica Londo) is a national, non-profit, non-political and non-denominational NGO, governed by Law No. 61/233 of May 27, 1961.",
+    "desc2": "Our statutes were adopted on January 27, 2026 and our internal regulations on January 15, 2026. We collaborate with UN Agencies, international and national NGOs, Embassies, and Central African State Institutions.",
+    "desc3": "AWABEL places women, children, and youth at the heart of its interventions, for sustainable and equitable development in the CAR.",
+    "domainsTitle": "🎯 Areas of intervention",
+    "domains": [
+      "Education, water, hygiene and sanitation",
+      "Food security and polytechnic training",
+      "Environmental and child protection",
+      "Women's empowerment and youth socio-professional reintegration",
+      "Community health, maternal and child health"
+    ]
+  },
+  "programs": {
+    "tag": "Programs",
+    "title": "Our areas of action",
+    "sub": "Each program reflects our commitment to sustainable human development in the Central African Republic.",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Education & Hygiene",
+        "desc": "Access to education, clean water, hygiene and sanitation for vulnerable communities in the CAR."
+      },
+      {
+        "icon": "🌾",
+        "title": "Food Security",
+        "desc": "Polytechnic training and strengthening food security in rural and peri-urban areas."
+      },
+      {
+        "icon": "🌿",
+        "title": "Environment & Children",
+        "desc": "Environmental protection, children's rights and fighting all forms of violence against minors."
+      },
+      {
+        "icon": "👩",
+        "title": "Women's Empowerment",
+        "desc": "Strengthening women's capacities, vocational training and youth socio-professional reintegration."
+      },
+      {
+        "icon": "🏥",
+        "title": "Community Health",
+        "desc": "Maternal and child health, access to care, awareness and prevention in communities."
+      },
+      {
+        "icon": "🤝",
+        "title": "Join AWABEL",
+        "desc": "Become a member, volunteer or partner to support our humanitarian mission in the CAR.",
+        "cta": true
+      }
+    ]
+  },
+  "team": {
+    "tag": "Executive Bureau",
+    "title": "Our leadership team",
+    "sub": "Elected during the General Assembly, the 9 members of the Coordination Bureau guide AWABEL toward its humanitarian mission."
+  },
+  "partners": {
+    "tag": "Partners",
+    "title": "Strategic partnerships",
+    "sub": "AWABEL collaborates with major national and international institutions for lasting impact in the CAR."
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Contact Us",
+    "infoTitle": "Official AWABEL Contact Information",
+    "formTitle": "✉️ Send us a message",
+    "labelAddress": "Address",
+    "labelPhone": "Phone numbers",
+    "labelEmail": "E-mail",
+    "labelSocial": "Social media",
+    "addressVal": "Bangui, 6th district\nMODOUA neighborhood, CAR",
+    "fields": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send message →"
+    },
+    "subjects": ["Information request", "Member membership", "Volunteering", "Partnership", "Other"],
+    "success": "✅ Message sent! We will respond to you shortly.",
+    "error": "❌ Sending error. Please write directly to awabel26@gmail.com",
+    "sending": "Sending..."
+  },
+  "join": {
+    "tag": "Join",
+    "title": "Join AWABEL",
+    "memberTitle": "Become a member",
+    "volunteerTitle": "Volunteer application",
+    "partnerTitle": "Propose a partnership"
+  },
+  "news": {
+    "tag": "News",
+    "title": "Our news",
+    "sub": "Stay informed about AWABEL's activities and programs in the Central African Republic."
+  },
+  "footer": {
+    "desc": "Association Wali ti Béafrica Londo\nNational NGO for Humanitarian and Social Action\nCentral African Republic — Founded in 2022",
+    "slogan": "Solidarity · Justice · Equality",
+    "quicklinks": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "© 2026 AWABEL — Association Wali ti Béafrica Londo. All rights reserved. | Law No. 61/233 of May 27, 1961 — CAR",
+    "legal": "Legal notice"
+  },
+  "meta": {
+    "homeTitle": "AWABEL — National Humanitarian NGO | Central African Republic",
+    "homeDesc": "AWABEL works to protect women's rights, fight poverty and promote sustainable development in the CAR.",
+    "aboutTitle": "About — AWABEL",
+    "programsTitle": "Programs — AWABEL",
+    "contactTitle": "Contact — AWABEL",
+    "newsTitle": "News — AWABEL"
+  },
+  "notfound": {
+    "title": "404",
+    "message": "Page not found — This page does not exist.",
+    "backHome": "← Back to home"
+  },
+  "legal": {
+    "tag": "Legal",
+    "title": "Legal Notice",
+    "identification": "Organization Identification",
+    "privacy": "Privacy Policy",
+    "hosting": "Hosting & Technologies",
+    "privacyText1": "Data collected through this site's forms (name, email, message) are used exclusively to respond to user requests and are transmitted to AWABEL at awabel26@gmail.com.",
+    "privacyText2": "AWABEL commits not to share this data with third parties without explicit user consent, in accordance with personal data protection principles.",
+    "hostingText": "This site is hosted on Vercel / Render (free static hosting with automatic HTTPS). It is developed with React 18, TypeScript 5, Bootstrap 5 and Vite 5. Email sending is handled by EmailJS (third-party service)."
+  },
+  "forms": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationality": "Nationality",
+    "phone": "Phone",
+    "motivation": "Motivation",
+    "skills": "Skills",
+    "availability": "Availability",
+    "organization": "Organization",
+    "contactName": "Contact Name",
+    "partnerType": "Partner Type",
+    "submitMember": "Submit application →",
+    "submitVolunteer": "Submit application →",
+    "submitPartner": "Send proposal →",
+    "loading": "Sending...",
+    "successMember": "✅ Your membership application has been sent!",
+    "successVolunteer": "✅ Your volunteer application has been sent!",
+    "successPartner": "✅ Your partnership proposal has been sent!",
+    "error": "❌ Error. Write directly to awabel26@gmail.com"
+  }
+}
