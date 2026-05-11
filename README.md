@@ -101,6 +101,7 @@ Remplacez les fichiers SVG dans `public/team/` par les vraies photos :
 | `public/team/membre7.jpg` | NINGADAMA Milca — Mobilisation Communautaire |
 | `public/team/membre8.jpg` | ZOZOKOPA Jordan Stéphane — Logistique |
 | `public/team/membre9.jpg` | KAZIMO Cédric — Conseiller Juridique |
+| `public/team/membre10.jpg`| MBAMBA Flora — Assistante Mobilisatrice |
 
 > Format recommandé : JPEG/WebP, 400×400px minimum, ratio carré (1:1)
 
