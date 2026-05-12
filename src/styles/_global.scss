@@ -144,9 +144,10 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
 
   .brand-tagline {
     font-size: 0.62rem;
-    color: $text-muted;
+    color: $yellow-accent;
     line-height: 1.3;
     display: block;
+    font-weight: 600;
   }
 
   .navbar-brand {
@@ -155,7 +156,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
     gap: 0.75rem;
   }
 
-  .nav-link {
+  .nav-link:not(.nav-cta):not(.nav-cta-white) {
     font-weight: 600;
     font-size: 0.85rem;
     color: $text-primary !important;
@@ -172,23 +173,25 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
     }
   }
 
-  .nav-donate {
-    color: white !important;
-    &:hover {
-      color: white !important;
+  .nav-cta,
+  .nav-cta-white {
+    color: #ffffff !important;
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: #ffffff !important;
     }
   }
 
-  .nav-cta {
-    background: $blue-primary !important;
-    color: $white !important;
-    border-radius: 20px !important;
-    padding: 0.45rem 1.1rem !important;
-    font-size: 0.84rem;
-    border: 2px solid $blue-accent !important; // Mêmes bordures que Faire un Don
-    &:hover { background: $blue-dark !important; color: $white !important; }
+  .nav-donate {
+    color: black !important;
+    &:hover {
+      color: black !important;
+    }
   }
 
+  
   .dropdown-menu {
     border: 1.5px solid $border-color;
     border-radius: 8px;
@@ -319,8 +322,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
 }
 
 .btn-hero-primary {
-  background: $white;
-  color: $blue-primary;
+  background: $yellow-accent;
+  color: $text-primary;
   font-weight: 700;
   border-radius: 8px;
   padding: 0.75rem 1.75rem;
@@ -330,7 +333,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
   display: inline-flex;
   align-items: center;
   transition: background 0.2s;
-  &:hover { background: $blue-light; color: $blue-dark; }
+  &:hover { background: #E0A800; color: $text-primary; }
 }
 
 .btn-hero-outline {
@@ -536,9 +539,13 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
 }
 
 .value-chip {
-  background: $blue-primary; color: $white;
-  padding: 0.4rem 1rem; border-radius: 20px;
-  font-size: 0.8rem; font-weight: 700; font-family: 'Nunito', sans-serif;
+  background: $yellow-accent;
+  color: $text-primary;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
 }
 
 // =====================
@@ -651,8 +658,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
   transition: opacity 0.2s; flex-shrink: 0;
   &:hover { opacity: 0.8; }
   &.fb { background: #1877F2; }
-  &.li { background: #0A66C2; }
-  &.tw { background: #1DA1F2; }
   &.wa { background: #25D366; }
 }
 
@@ -895,14 +900,14 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; font-weight: 800; }
         text-align: center !important;
         justify-content: center !important;
         width: 100% !important;
-        background: transparent !important;
-        color: $white !important;
-        border: 2px solid rgba($white, 0.4) !important;
+        background: #1A3FA8 !important;
+        color: #ffffff !important;
+        border: 2px solid rgba($white, 0.25) !important;
         border-radius: 12px !important;
         transition: background 0.2s, transform 0.2s !important;
 
         &:hover {
-          background: rgba($white, 0.1) !important;
+          background: #0D2680 !important;
           transform: translateY(-2px) !important;
         }
       }

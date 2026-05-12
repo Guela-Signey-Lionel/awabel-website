@@ -89,7 +89,7 @@ export default function DonateModal({ isOpen, onClose }: DonateModalProps) {
                     <div className="col-6 col-md-3" key={amount}>
                       <button
                         type="button"
-                        className={`btn w-100 ${selectedAmount === amount ? 'btn-primary' : 'btn-outline-primary'}`}
+                        className={`btn w-100 ${selectedAmount === amount ? 'btn-warning' : 'btn-outline-warning'}`}
                         onClick={() => handleAmountSelect(amount)}
                       >
                         {t(`donate.amounts.${amount}`)}
@@ -206,7 +206,7 @@ export default function DonateModal({ isOpen, onClose }: DonateModalProps) {
                 <button type="button" className="btn btn-secondary" onClick={onClose}>
                   {t('donate.form.cancel')}
                 </button>
-                <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
+                <button type="submit" className="btn btn-warning" disabled={isSubmitting}>
                   {isSubmitting ? 'Envoi en cours...' : t('donate.form.submit')}
                 </button>
               </div>

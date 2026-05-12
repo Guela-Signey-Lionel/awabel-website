@@ -30,7 +30,7 @@ export default function Home() {
           '@context': 'https://schema.org',
           '@type': 'NGO',
           name: 'AWABEL',
-          alternateName: 'Association Wali ti Béafrica Londo',
+          alternateName: 'A Wali ti Béafrica E Londo',
           url: import.meta.env.VITE_SITE_URL || 'https://awabel.org',
           email: 'awabel26@gmail.com',
           telephone: '+23674719999',
@@ -147,7 +147,7 @@ export default function Home() {
           </p>
           <div className="d-flex gap-3 justify-content-center flex-wrap">
             <Link to="/join"
-              style={{ background: '#fff', color: '#1A3FA8', padding: '13px 28px', borderRadius: '8px', fontWeight: 700, textDecoration: 'none', fontSize: '0.875rem' }}
+              style={{ background: '#FFC107', color: '#000', padding: '13px 28px', borderRadius: '8px', fontWeight: 700, textDecoration: 'none', fontSize: '0.875rem' }}
             >
               Rejoindre AWABEL
             </Link>

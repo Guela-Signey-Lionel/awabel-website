@@ -58,7 +58,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     category: 'rapport',
     titleFr: "Adoption des Statuts et Règlement Intérieur AWABEL",
     titleEn: "Adoption of AWABEL Statutes and Internal Regulations",
-    excerptFr: "Les Statuts d'AWABEL ont été officiellement adoptés le 27 janvier 2026, suivant l'adoption du Règlement Intérieur le 15 janvier.",
+    excerptFr: "Les Statuts de l'ONG AWABEL ont été officiellement adoptés le 27 janvier 2026, suivant l'adoption du Règlement Intérieur le 15 janvier.",
     excerptEn: "AWABEL's Statutes were officially adopted on January 27, 2026, following the adoption of the Internal Regulations on January 15.",
   },
 ]
@@ -72,7 +72,11 @@ export const AWABEL_COLORS = {
 }
 
 export const AWABEL_CONTACTS = {
-  phones: ['+236 74 71 99 99', '+236 70 05 05 87'],
+  phones: [
+    { number: '+236 74 71 99 99', label: '📞', isWhatsApp: false },
+    { number: '+236 70 05 05 87', label: '📞', isWhatsApp: false },
+    { number: '+236 72 12 56 63', label: '💬', isWhatsApp: true }
+  ],
   email: 'awabel26@gmail.com',
   address: 'Bangui, 6ème arrondissement, quartier MODOUA',
   country: 'République Centrafricaine',

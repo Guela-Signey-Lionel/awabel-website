@@ -46,7 +46,7 @@ export default function Programs() {
               Rejoignez AWABEL comme bénévole, membre ou partenaire pour renforcer notre impact humanitaire en RCA.
             </p>
             <Link to="/join" style={{
-              background: '#1A3FA8', color: '#fff', padding: '13px 28px',
+              background: '#FFC107', color: '#fff', padding: '13px 28px',
               borderRadius: '8px', fontWeight: 700, textDecoration: 'none', fontSize: '0.875rem',
             }}>
               Rejoindre AWABEL →

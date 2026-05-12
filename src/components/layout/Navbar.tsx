@@ -56,7 +56,7 @@ export default function Navbar() {
             />
             <div className="d-flex flex-column">
               <span className="brand-name">AWABEL</span>
-              <span className="brand-tagline">Association Wali ti Béafrica Londo</span>
+              <span className="brand-tagline">A Wali ti Béafrica E Londo</span>
             </div>
           </Link>
 
@@ -146,8 +146,8 @@ export default function Navbar() {
                   className="nav-link nav-donate" 
                   onClick={() => { setDonateModalOpen(true); close() }}
                   style={{ 
-                    background: '#1A3FA8', 
-                    color: 'white !important', 
+                    background: '#FFC107', 
+                    color: '#000000 !important', 
                     border: 'none', 
                     padding: '0.5rem 1rem', 
                     borderRadius: '0.375rem',
@@ -156,11 +156,11 @@ export default function Navbar() {
                     transition: 'all 0.2s'
                   }}
                   onMouseOver={(e) => {
-                    e.currentTarget.style.background = '#0D2680'
+                    e.currentTarget.style.background = '#E0A800'
                     e.currentTarget.style.transform = 'translateY(-1px)'
                   }}
                   onMouseOut={(e) => {
-                    e.currentTarget.style.background = '#1A3FA8'
+                    e.currentTarget.style.background = '#FFC107'
                     e.currentTarget.style.transform = 'translateY(0)'
                   }}
                 >
@@ -170,7 +170,30 @@ export default function Navbar() {
 
               {/* ── CTA ── */}
               <li className="nav-item ms-lg-2">
-                <NavLink className="nav-link nav-cta" to="/contact" onClick={close}>
+                <NavLink 
+                  className="nav-link nav-cta nav-cta-white" 
+                  to="/contact" 
+                  onClick={close}
+                  style={{ 
+                    background: '#1A3FA8', 
+                    color: '#FFFFFF', 
+                    border: '2px solid rgba(255, 255, 255, 0.25)', 
+                    borderRadius: '12px',
+                    fontWeight: '600',
+                    fontSize: '0.95rem',
+                    textAlign: 'center',
+                    justifyContent: 'center',
+                    transition: 'background 0.2s, transform 0.2s'
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.background = '#0D2680'
+                    e.currentTarget.style.transform = 'translateY(-2px)'
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.background = '#1A3FA8'
+                    e.currentTarget.style.transform = 'translateY(0)'
+                  }}
+                >
                   {t('nav.cta')}
                 </NavLink>
               </li>

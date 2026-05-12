@@ -15,9 +15,9 @@ export default function About() {
       {/* Page header */}
       <div className="page-hero" style={{ background: 'linear-gradient(135deg, #0D2680 0%, #1A3FA8 100%)', color: '#fff', paddingBottom: '3rem' }}>
         <div className="awabel-container">
-          <span className="section-tag" style={{ background: 'rgba(255,255,255,0.2)', marginBottom: '1rem' }}>À propos</span>
+          <span className="section-tag" style={{ background: '#FFC107', color: '#1a1a2e', marginBottom: '1rem' }}>À propos</span>
           <h1 style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: '2.2rem', color: '#fff', marginBottom: '0.75rem' }}>
-            Association Wali ti Béafrica Londo
+            A Wali ti Béafrica E Londo
           </h1>
           <p style={{ opacity: 0.88, maxWidth: 600, fontSize: '1rem' }}>
             ONG Nationale d'Action Humanitaire et Sociale — République Centrafricaine
@@ -49,7 +49,7 @@ export default function About() {
                 <table style={{ width: '100%', fontSize: '0.85rem' }}>
                   <tbody>
                     {[
-                      ['Dénomination', 'Association Wali ti Béafrica Londo (AWABEL)'],
+                      ['Dénomination', 'A Wali ti Béafrica E Londo (AWABEL)'],
                       ['Siège social', 'Bangui, 6ème arrondissement, quartier MODOUA, RCA'],
                       ['Création', '25 Novembre 2022 — Assemblée Générale constitutive'],
                       ['Statuts adoptés', '27 Janvier 2026'],

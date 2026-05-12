@@ -71,7 +71,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.35, duration: 0.6 }}
             >
-              {t('hero.title')} <span>{t('hero.titleHighlight')}</span>
+              {t('hero.title')} <span style={{ color: '#FFC107' }}>{t('hero.titleHighlight')}</span>
             </motion.h1>
 
             <motion.p

@@ -159,14 +159,18 @@
   "news": {
     "tag": "Actualités",
     "title": "Nos actualités",
-    "sub": "Restez informé des activités et programmes d'AWABEL en République Centrafricaine."
+    "sub": "Restez informé des activités et programmes de l'ONG AWABEL en République Centrafricaine.",
+    "brand": {
+      "name": "AWABEL",
+      "tagline": "A Wali ti Béafrica E Londo"
+    }
   },
   "footer": {
-    "desc": "Association Wali ti Béafrica Londo\nONG Nationale d'Action Humanitaire et Sociale\nRépublique Centrafricaine — Fondée en 2022",
+    "desc": "A Wali ti Béafrica E Londo\nONG Nationale d'Action Humanitaire et Sociale\nRépublique Centrafricaine — Fondée en 2022",
     "slogan": "Solidarité · Justice · Égalité",
     "quicklinks": "Navigation",
     "contactTitle": "Contact",
-    "copyright": "© 2026 AWABEL — Association Wali ti Béafrica Londo. Tous droits réservés. | Loi N° 61/233 du 27 mai 1961 — RCA",
+    "copyright": "© 2026 AWABEL — A Wali ti Béafrica E Londo, ONG Nationale d'Action Humanitaire. Tous droits réservés. | Loi N° 61/233 du 27 mai 1961 — RCA",
     "legal": "Mentions légales"
   },
   "meta": {

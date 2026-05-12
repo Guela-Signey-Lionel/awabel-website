@@ -5,8 +5,8 @@ export default function Legal() {
   const { t } = useTranslation()
 
   const legalData = [
-    [t('legal.identification'), 'Association Wali ti Béafrica Londo (AWABEL)'],
-    ['Dénomination', 'Association Wali ti Béafrica Londo (AWABEL)'],
+    [t('legal.identification'), 'A Wali ti Béafrica E Londo (AWABEL)'],
+    ['Dénomination', 'A Wali ti Béafrica E Londo (AWABEL)'],
     ['Siège social', 'Bangui, 6ème arrondissement, Quartier MODOUA, République Centrafricaine'],
     ['Date de création', '25 Novembre 2022 — Assemblée Générale constitutive'],
     ['Statuts adoptés', '27 Janvier 2026'],

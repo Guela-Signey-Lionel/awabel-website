@@ -61,6 +61,10 @@
     "founded": "Founded Nov. 25",
     "coverage": "Bangui & Regions"
   },
+  "brand": {
+    "name": "AWABEL",
+    "tagline": "A Wali ti Béafrica É Londo"
+  },
   "about": {
     "tag": "About",
     "title": "Our humanitarian mission",
@@ -162,11 +166,11 @@
     "sub": "Stay informed about AWABEL's activities and programs in the Central African Republic."
   },
   "footer": {
-    "desc": "Association Wali ti Béafrica Londo\nNational NGO for Humanitarian and Social Action\nCentral African Republic — Founded in 2022",
+    "desc": "A Wali ti Béafrica E Londo\nNational NGO for Humanitarian and Social Action\nCentral African Republic — Founded in 2022",
     "slogan": "Solidarity · Justice · Equality",
     "quicklinks": "Navigation",
     "contactTitle": "Contact",
-    "copyright": "© 2026 AWABEL — Association Wali ti Béafrica Londo. All rights reserved. | Law No. 61/233 of May 27, 1961 — CAR",
+    "copyright": "© 2026 AWABEL — A Wali ti Béafrica E Londo. All rights reserved. | Law No. 61/233 of May 27, 1961 — CAR",
     "legal": "Legal notice"
   },
   "meta": {

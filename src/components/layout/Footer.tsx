@@ -11,16 +11,25 @@ export default function Footer() {
         <div className="row g-4 mb-4">
           {/* Brand */}
           <div className="col-lg-4 col-md-6">
-            <p className="footer-brand-name">AWABEL</p>
+            <div className="d-flex align-items-center gap-3 mb-3">
+              <img
+                src="/logo.jpeg"
+                alt="Logo AWABEL"
+                className="footer-logo"
+                style={{ width: '60px', height: '60px', borderRadius: '8px' }}
+              />
+              <div>
+                <p className="footer-brand-name mb-0">AWABEL</p>
+                <p className="footer-brand-signature mb-0" style={{ fontSize: '0.75rem', color: '#FFC107', fontWeight: '600' }}>A Wali ti Béafrica É Londo</p>
+              </div>
+            </div>
             <p className="footer-desc" style={{ whiteSpace: 'pre-line' }}>
               {t('footer.desc')}
             </p>
             <p className="footer-slogan">{t('footer.slogan')}</p>
             <div className="d-flex gap-2 flex-wrap">
-              <a href="#" className="social-btn fb" title="Facebook" aria-label="Facebook">f</a>
-              <a href="#" className="social-btn li" title="LinkedIn" aria-label="LinkedIn">in</a>
-              <a href="#" className="social-btn tw" title="Twitter/X" aria-label="Twitter">𝕏</a>
-              <a href="#" className="social-btn wa" title="WhatsApp" aria-label="WhatsApp">W</a>
+              <a href="https://www.facebook.com/share/1Tfo58ytWu/" target="_blank" rel="noopener noreferrer" className="social-btn fb" title="Facebook" aria-label="Facebook">f</a>
+              <a href="https://wa.me/23672125663" target="_blank" rel="noopener noreferrer" className="social-btn wa" title="WhatsApp" aria-label="WhatsApp">W</a>
             </div>
           </div>
 
@@ -46,9 +55,14 @@ export default function Footer() {
               📍 {AWABEL_CONTACTS.address}<br />
               {AWABEL_CONTACTS.country}
             </p>
-            {AWABEL_CONTACTS.phones.map((phone) => (
-              <p key={phone} className="footer-contact-val">
-                📞 <a href={`tel:${phone.replace(/\s/g, '')}`}>{phone}</a>
+            {AWABEL_CONTACTS.phones.map((phone, index) => (
+              <p key={index} className="footer-contact-val">
+                <a href={`tel:${phone.number.replace(/\s/g, '')}`}>
+                  <span style={{ color: phone.isWhatsApp ? '#25D366' : 'inherit' }}>
+                    {phone.label}
+                  </span>
+                  {phone.isWhatsApp ? ' WhatsApp' : ''} {phone.number}
+                </a>
               </p>
             ))}
             <p className="footer-contact-val">
@@ -68,8 +82,8 @@ export default function Footer() {
               <Link to="/join"
                 className="btn btn-sm"
                 style={{
-                  background: '#1A3FA8',
-                  color: '#fff',
+                  background: '#FFC107',
+                  color: '#000',
                   borderRadius: '20px',
                   fontSize: '0.75rem',
                   fontWeight: 700,

@@ -52,9 +52,14 @@ export default function Contact() {
                   <div className="c-icon">📞</div>
                   <div>
                     <div className="c-label">{t('contact.labelPhone')}</div>
-                    {AWABEL_CONTACTS.phones.map((p) => (
-                      <div key={p} className="c-val">
-                        <a href={`tel:${p.replace(/\s/g, '')}`}>{p}</a>
+                    {AWABEL_CONTACTS.phones.map((phone, index) => (
+                      <div key={index} className="c-val">
+                        <a href={`tel:${phone.number.replace(/\s/g, '')}`}>
+                          <span style={{ color: phone.isWhatsApp ? '#25D366' : 'inherit' }}>
+                            {phone.label}
+                          </span>
+                          {phone.isWhatsApp ? ' WhatsApp' : ''} {phone.number}
+                        </a>
                       </div>
                     ))}
                   </div>
@@ -76,12 +81,10 @@ export default function Contact() {
                     <div className="c-label">{t('contact.labelSocial')}</div>
                     <div className="d-flex gap-2 mt-2 flex-wrap">
                       {[
-                        { cls: 'fb', label: 'Facebook' },
-                        { cls: 'li', label: 'LinkedIn' },
-                        { cls: 'tw', label: 'Twitter' },
-                        { cls: 'wa', label: 'WhatsApp' },
-                      ].map(({ cls, label }) => (
-                        <a key={cls} href="#" className={`social-btn ${cls}`}
+                        { cls: 'fb', label: 'Facebook', href: 'https://www.facebook.com/share/1Tfo58ytWu/' },
+                        { cls: 'wa', label: 'WhatsApp', href: 'https://wa.me/23672125663' },
+                      ].map(({ cls, label, href }) => (
+                        <a key={cls} href={href} target="_blank" rel="noopener noreferrer" className={`social-btn ${cls}`}
                           style={{ width: 'auto', borderRadius: 6, padding: '6px 12px', fontSize: '0.75rem' }}
                           title={label} aria-label={label}
                         >
